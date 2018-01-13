@@ -1,0 +1,503 @@
+/*
+** ------------------------------------------------------
+** Author: Phung Tran
+** Date: 11/29/2017
+** Description: output text file from the sql run
+** ---------------------------------------------------------*/
+
+Table RECEPTIONIST created.
+
+No errors.
+
+Table PATIENT created.
+
+No errors.
+
+Table ALLERGYMEDICINE created.
+
+No errors.
+
+Table VISITINFO created.
+
+No errors.
+
+Table DOCTORSANDNURSES created.
+
+No errors.
+
+Table SENDANDRECEIVE created.
+
+No errors.
+
+Table ADMINS created.
+
+No errors.
+
+Table REPORT created.
+
+No errors.
+
+Table ALTERSTATUS created.
+
+No errors.
+
+Table SETBILL created.
+
+No errors.
+
+Table CREATECHANGEDELETE created.
+
+No errors.
+
+Table ALLERGYMEDICINE altered.
+
+No errors.
+Name      Null?    Type         
+--------- -------- ------------ 
+STAFFNAME NOT NULL VARCHAR2(30) 
+RID       NOT NULL CHAR(5)      
+Name                      Null?    Type         
+------------------------- -------- ------------ 
+NAMES                     NOT NULL VARCHAR2(30) 
+GENDER                    NOT NULL CHAR(1)      
+INSURANCE                 NOT NULL VARCHAR2(50) 
+SSN                       NOT NULL VARCHAR2(9)  
+BDATE                     NOT NULL DATE         
+ADDRESS                   NOT NULL VARCHAR2(50) 
+STATUS                    NOT NULL VARCHAR2(13) 
+EDITPATIENTCONDITIONLEVEL NOT NULL VARCHAR2(50) 
+RSTAFFID                           CHAR(5)      
+Name               Null?    Type         
+------------------ -------- ------------ 
+DOB                NOT NULL DATE         
+PATIENTNAME        NOT NULL VARCHAR2(30) 
+DATEOFVISIT        NOT NULL DATE         
+CONDITIONSSYMPTOMS          VARCHAR2(70) 
+Name        Null?    Type         
+----------- -------- ------------ 
+DNID        NOT NULL NUMBER(38)   
+DNNAMES     NOT NULL VARCHAR2(30) 
+STAFFTITLE  NOT NULL VARCHAR2(2)  
+STAFFSTATUS NOT NULL VARCHAR2(16) 
+Name        Null?    Type                              
+----------- -------- --------------------------------- 
+RID         NOT NULL CHAR(5)                           
+DNID        NOT NULL NUMBER(38)                        
+DATEANDTIME          TIMESTAMP(6) WITH LOCAL TIME ZONE 
+MESSAGES             VARCHAR2(200)                     
+Name  Null?    Type         
+----- -------- ------------ 
+AID   NOT NULL NUMBER(38)   
+ANAME          VARCHAR2(30) 
+Name          Null?    Type         
+------------- -------- ------------ 
+STAFFID                NUMBER(38)   
+STAFFNAME              VARCHAR2(30) 
+REPORTNO      NOT NULL VARCHAR2(5)  
+PATIENTNAME            VARCHAR2(30) 
+TREATMENTUSED NOT NULL VARCHAR2(30) 
+PATIENTDOB             DATE         
+ASKAID                 NUMBER(38)   
+Name        Null?    Type         
+----------- -------- ------------ 
+STAFFID     NOT NULL NUMBER(38)   
+PATIENTDOB           DATE         
+PATIENTNAME          VARCHAR2(30) 
+Name          Null?    Type         
+------------- -------- ------------ 
+RSTAFFID      NOT NULL CHAR(5)      
+PATIENTNAME            VARCHAR2(30) 
+PATIENTDOB             DATE         
+PAYMENTAMOUNT NOT NULL NUMBER(38)   
+Name     Null?    Type         
+-------- -------- ------------ 
+RSTAFFID          CHAR(5)      
+ASTAFFID NOT NULL NUMBER(38)   
+STAFFID           NUMBER(38)   
+ACCOUNTS          VARCHAR2(50) 
+Name             Null?    Type         
+---------------- -------- ------------ 
+BDATE            NOT NULL DATE         
+NAMES            NOT NULL VARCHAR2(30) 
+ALLERGICMEDICINE NOT NULL VARCHAR2(70) 
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+STAFFNAME                      RID  
+------------------------------ -----
+Justin Bieber                  R-001
+Adam Levine                    R-002
+Ryan Reynolds                  R-003
+Johnny Depp                    R-004
+Chris Hemsworth                R-005
+
+
+NAMES                          G INSURANCE                                          SSN       BDATE     ADDRESS                                            STATUS        EDITPATIENTCONDITIONLEVEL                          RSTAF
+------------------------------ - -------------------------------------------------- --------- --------- -------------------------------------------------- ------------- -------------------------------------------------- -----
+aaa                            F statefarm                                          123123123 01-JAN-85 Tempe1                                             being seen    light                                              R-001
+bbb                            M access                                             124124124 01-JAN-95 Tempe2                                             being seen    medium                                             R-002
+ccc                            F blue cross                                         125125125 01-JAN-65 Tempe3                                             released      severe                                             R-003
+ddd                            M geico                                              126126126 01-JAN-75 Tempe4                                             released      severe                                             R-004
+eee                            F statefarm                                          127127127 01-JAN-85 Tempe5                                             waiting       light                                              R-005
+
+
+DOB       PATIENTNAME                    DATEOFVIS CONDITIONSSYMPTOMS                                                    
+--------- ------------------------------ --------- ----------------------------------------------------------------------
+01-JAN-85 aaa                            01-NOV-17 frozen                                                                
+01-JAN-65 ccc                            05-NOV-17 sneezing nonstop                                                      
+01-JAN-75 ddd                            07-NOV-17 low blood pressure                                                    
+01-JAN-85 eee                            28-NOV-17 diarhea                                                               
+01-JAN-95 bbb                            29-NOV-17 High Fever                                                            
+
+
+      DNID DNNAMES                        ST STAFFSTATUS     
+---------- ------------------------------ -- ----------------
+       100 Lady Gaga                      DR available       
+       101 Katy Perry                     NP seeing a patient
+       102 Emma Watson                    DR off duty        
+       103 Jennifer Lawrence              NP seeing a patient
+       104 Taylor Swift                   DR off duty        
+
+
+RID         DNID DATEANDTIME                     MESSAGES                                                                                                                                                                                                
+----- ---------- ------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+R-001        100 29-NOV-17 02.45.00.000000000 AM There are a few severe cases                                                                                                                                                                            
+R-003        101 29-NOV-17 02.57.00.000000000 AM maybe NO                                                                                                                                                                                                
+R-002        102 29-NOV-17 03.00.00.000000000 AM maybe Yes                                                                                                                                                                                               
+R-003        103 29-NOV-17 07.45.00.000000000 AM maybe NO                                                                                                                                                                                                
+R-005        104 29-NOV-17 09.45.00.000000000 AM sureeeee                                                                                                                                                                                                
+
+
+       AID ANAME                         
+---------- ------------------------------
+         1 Phung Tran                    
+         2 Kate Chaiyasut                
+         3 Seong Min Kim                 
+         4 Abdul Alarabi                 
+         5 Cory Latino                   
+
+
+   STAFFID STAFFNAME                      REPOR PATIENTNAME                    TREATMENTUSED                  PATIENTDO     ASKAID
+---------- ------------------------------ ----- ------------------------------ ------------------------------ --------- ----------
+       100 Lady Gaga                      Re-01 aaa                            advil                          01-JAN-85          1
+       101 Katy Perry                     Re-02 bbb                            Tylernold                      01-JAN-95          1
+       100 Lady Gaga                      Re-03 ccc                            cough drop                     01-JAN-65          1
+       102 Emma Watson                    Re-04 ddd                            cough drop                     01-JAN-75          1
+       103 Jennifer Lawrence              Re-05 eee                            cough drop                     01-JAN-85          1
+
+
+   STAFFID PATIENTDO PATIENTNAME                   
+---------- --------- ------------------------------
+       100 01-JAN-85 aaa                           
+       101 01-JAN-95 bbb                           
+       102 01-JAN-65 ccc                           
+       103 01-JAN-75 ddd                           
+       104 01-JAN-85 eee                           
+
+
+RSTAF PATIENTNAME                    PATIENTDO PAYMENTAMOUNT
+----- ------------------------------ --------- -------------
+R-003 aaa                            01-JAN-85            87
+R-001 bbb                            01-JAN-95            85
+R-002 aaa                            01-JAN-85            13
+R-004 ddd                            01-JAN-75            45
+R-005 eee                            01-JAN-85            55
+
+
+RSTAF   ASTAFFID    STAFFID ACCOUNTS                                          
+----- ---------- ---------- --------------------------------------------------
+R-001          1        100 account 5                                         
+R-002          2        101 account 54                                        
+R-003          4            account 3                                         
+R-004          5        103 account 4                                         
+R-001          3        104 account 6                                         
+
+
+BDATE     NAMES                          ALLERGICMEDICINE                                                      
+--------- ------------------------------ ----------------------------------------------------------------------
+01-JAN-65 ccc                            None                                                                  
+01-JAN-75 ddd                            Nightquil                                                             
+01-JAN-85 aaa                            None                                                                  
+01-JAN-85 eee                            Advil                                                                 
+01-JAN-95 bbb                            Cough drop                                                            
+
+
+View PROJECTPATIENTSEVERECONDITION created.
+
+
+View PROJECTMESSAGES created.
+
+
+View OFFDUTYDOCTORSNURSES created.
+
+
+View PROJECTALLERGICMEDICINES created.
+
+
+Table RECEPTIONIST dropped.
+
+
+Table PATIENT dropped.
+
+
+Table DOCTORSANDNURSES dropped.
+
+
+Table ADMINS dropped.
+
+
+Table ALLERGICMEDICINES dropped.
+
+
+Table VISITINFO dropped.
+
+
+Table SENDANDRECEIVE dropped.
+
+
+Table REPORT dropped.
+
+
+Table ALTERSTATUS dropped.
+
+
+Table SETBILL dropped.
+
+
+Table CREATECHANGEDELETE dropped.
+
+
+View OFFDUTYDOCTORSNURSES dropped.
+
+
+View PROJECTALLERGICMEDICINES dropped.
+
+
+View PROJECTMESSAGES dropped.
+
+
+View PROJECTPATIENTSEVERECONDITION dropped.
+
